@@ -29,5 +29,3 @@ print(r.srandmember('user:hugo:favoriteArtist'))
 
 print(r.srem('user:max:favoriteArtist', 'Lenine'))
 print(r.smembers('user:max:favoriteArtist'))
-
-
