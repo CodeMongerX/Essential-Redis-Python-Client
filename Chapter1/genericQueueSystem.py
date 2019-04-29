@@ -15,7 +15,7 @@ class Queue:
         self.queueKey = 'queues:' + queueName
         self.timeOut = 0  # zero means no timeout
 
-    def size():
+    def size(self):
         self.redisClient.llen(self.queueKey)
 
     def push(self, queueName, data):
